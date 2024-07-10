@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/colorful-sky-with-sun-background-mountains-sunset-sunrise_146671-14655.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    background: #000000;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: fit-content;
+    margin: 1em;
+}
+
+
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4d5f80;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+
+
+button:hover{
+    background: #4d5f80;
+
+}
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em  1em;
+    border-radius: 24px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100%-100px);
+} 
+.description{
+   text-transform: capitalize; 
+   margin-left: 8px;
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+
+}
